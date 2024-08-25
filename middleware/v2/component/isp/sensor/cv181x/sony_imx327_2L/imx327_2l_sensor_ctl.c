@@ -168,7 +168,7 @@ void imx327_2l_default_reg_init(VI_PIPE ViPipe)
 	}
 }
 
-#define IMX327_CHIP_ID_ADDR	0x31dc
+#define IMX327_CHIP_ID_ADDR	0x319a 	/* used to be 0x31dc */
 #define IMX327_CHIP_ID		0x6
 #define IMX327_CHIP_ID_MASK	0x6
 
