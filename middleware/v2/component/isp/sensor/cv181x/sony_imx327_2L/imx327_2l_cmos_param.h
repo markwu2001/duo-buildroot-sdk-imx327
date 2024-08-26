@@ -403,7 +403,7 @@ struct combo_dev_attr_s imx327_2l_rx_attr = {
 	},
 	.mclk = {
 		.cam = 0,
-		.freq = CAMPLL_FREQ_NONE,
+		.freq = CAMPLL_FREQ_37P125M,
 	},
 	.devno = 0,
 };
