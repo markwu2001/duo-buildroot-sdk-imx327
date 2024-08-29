@@ -394,16 +394,16 @@ static ISP_CMOS_BLACK_LEVEL_S g_stIspBlcCalibratio = {
 
 struct combo_dev_attr_s imx327_2l_rx_attr = {
 	.input_mode = INPUT_MODE_MIPI,
-	.mac_clk = RX_MAC_CLK_400M,
+	.mac_clk = RX_MAC_CLK_200M,
 	.mipi_attr = {
 		.raw_data_type = RAW_DATA_12BIT,
-		.lane_id = {5, 3, 4, -1, -1},
+		.lane_id = {3, 2, 4, -1, -1},
 		.pn_swap = {0, 0, 0, 0, 0},
 		.wdr_mode = CVI_MIPI_WDR_MODE_DOL,
 	},
 	.mclk = {
 		.cam = 0,
-		.freq = CAMPLL_FREQ_NONE,
+		.freq = CAMPLL_FREQ_37P125M,
 	},
 	.devno = 0,
 };
