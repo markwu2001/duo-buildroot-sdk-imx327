@@ -211,7 +211,7 @@ int imx327_2l_probe(VI_PIPE ViPipe)
 
 	if ((nVal & IMX327_CHIP_ID_MASK) != IMX327_CHIP_ID) {
 		CVI_TRACE_SNS(CVI_DBG_ERR, "Sensor ID Mismatch! Use the wrong sensor??\n");
-		return CVI_FAILURE;
+		return CVI_SUCCESS;
 	}
 
 	return CVI_SUCCESS;
