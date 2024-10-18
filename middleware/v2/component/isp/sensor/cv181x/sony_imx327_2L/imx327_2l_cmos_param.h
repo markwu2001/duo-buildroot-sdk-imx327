@@ -38,7 +38,7 @@ static const IMX327_2L_MODE_S g_astImx327_2l_mode[IMX327_2L_MODE_NUM] = {
 				.u32Height = 1097,
 			},
 		},
-		.f32MaxFps = 30,
+		.f32MaxFps = 15,
 		.f32MinFps = 0.13, /* 1125 * 30 / 0x3FFFF */
 		.u32HtsDef = 0x1130,
 		.u32VtsDef = 1125,
